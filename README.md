@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-<img width="1266" alt="Screen Shot" src="./assets/img/read.PNG">
+<img width="1266" alt="Screen Shot" src="https://sv1.img.in.th/m0FPS.png">
 
 Built using:
 
