@@ -305,14 +305,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .skill {
   padding: 0 0 50px 0;
   position: relative;
-  height: 100vh;
 }
 .skill-bx {
   background: #151515;
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
-  margin-top: 100px;
+  margin-top: 90px;
+  margin-bottom: 50px;
 }
 .skill h2 {
 	font-size: 45px;
@@ -347,6 +347,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 80px 0;
   position: relative;
   background-color: rgb(29, 27, 27);
+  
 }
 .project h2 {
 	font-size: 45px;
@@ -472,7 +473,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .contact {
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
   padding: 60px 0 60px 0;
-  height: 93vh;
+  
 }
 .contact img {
   width: 92%;
