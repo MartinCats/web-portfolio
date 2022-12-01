@@ -2,8 +2,8 @@ import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import logo from '../assets/img/logo.svg';
 import navIcon1 from '../assets/img/nav-icon1.svg';
-import navIcon2 from '../assets/img/nav-icon2.svg';
-import navIcon3 from '../assets/img/nav-icon3.svg';
+import navIcon2 from '../assets/img/github2.png';
+import navIcon3 from '../assets/img/mail.png';
 import { HashLink } from 'react-router-hash-link';
 import {
   BrowserRouter as Router
@@ -51,12 +51,12 @@ export const NavBar = () => {
             <span className="navbar-text">
               <div className="social-icon">
                 <a href="https://www.linkedin.com/in/patsathorn-charoensiri-722409249/"><img src={navIcon1} alt="" /></a>
-                <a href="https://www.facebook.com/patsathorn.charoensiri"><img src={navIcon2} alt="" /></a>
-                <a href="https://www.instagram.com/patsathorn_/"><img src={navIcon3} alt="" /></a>
+                <a href="https://github.com/MartinCats"><img src={navIcon2} alt="" /></a>
+                <a href="https://mail.google.com/mail/u/0/?fs=1&to=patsathorn.c@kkumail.com&tf=cm"><img src={navIcon3} alt="" /></a>
               </div>
-              <HashLink to='#connect'>
-                <button className="vvd"><span>Let’s Connect</span></button>
-              </HashLink>
+              <a href='https://drive.google.com/file/d/1MhbdfW2Q0L3UAadVs7x7JWqMDJGTju7I/view?usp=sharing'>
+                <button className="vvd"><span>Resume</span></button>
+              </a>
             </span>
           </Navbar.Collapse>
         </Container>
