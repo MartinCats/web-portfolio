@@ -6,16 +6,35 @@ import { Skills } from "./components/Skills";
 import { Projects } from "./components/Projects";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
+import PreLoader from './components/Preloader';
+import { useEffect,useState } from 'react';
 
 function App() {
+  const [isLoading, setIsLoading] = useState(true);
+  useEffect(() => {
+    setTimeout(() =>{
+      setIsLoading(false);
+    }, 2500); 
+  })
   return (
     <div className="App">
-      <NavBar />
-      <Banner />
-      <Skills />
-      <Projects />
-      <Contact />
-      <Footer />
+      {isLoading === true?   
+        <PreLoader/>:
+      <div>
+        <NavBar /> 
+        <Banner />
+        <Skills />
+        <Projects />
+        <Contact />
+        <Footer /> 
+      </div>
+      }
+     
+     
+      
+      
+      
+    
     </div>
   );
 }
